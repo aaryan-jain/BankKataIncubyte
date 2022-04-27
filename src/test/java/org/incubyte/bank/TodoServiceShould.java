@@ -38,6 +38,5 @@ public class TodoServiceShould {
 
         Mockito.verify(todoRepository).findById(1L);
 
-
     }
 }
